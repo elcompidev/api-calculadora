@@ -12,7 +12,6 @@ Microservicio REST de calculadora avanzada con autenticación JWT y persistencia
 - JWT + Bcrypt
 - Docker + Docker Compose
 - Swagger (OpenAPI 3.0)
-- Jest + Supertest
 
 ---
 
@@ -52,7 +51,7 @@ Disponible en:
 
 ## 📬 Colección Postman
 
-Archivo: `Api-Calculadora.postman_collection.json` incluido con pruebas de:
+Archivo: `test/Api-Calculadora.postman_collection.json` incluido con pruebas de:
 
 - Registro / Login
 - Operaciones
